@@ -9,6 +9,7 @@ export default function SinglePiece({ piece, handleChoice, flipped, disabled }) 
     }
 
     return (
+
         <div className="piece">
             <div className={flipped ? 'flipped' : ''} >
                 <img className="front" src={piece.src} alt="piece front" />
